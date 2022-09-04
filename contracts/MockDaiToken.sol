@@ -8,6 +8,7 @@ contract MockDaiToken is ERC20 {
 
     mapping(address => bool) received;
 
+//user can get only 1 time 10 tokens Dai
     function getTokens() public {
         require(
             received[msg.sender] != true,
