@@ -1,6 +1,6 @@
-require("@nomiclabs/hardhat-waffle"); //важная очень хуйня
+require("@nomiclabs/hardhat-waffle"); 
 require("@nomiclabs/hardhat-etherscan");
-// require("hardhat-coverage");
+require("hardhat-coverage");
 require("dotenv").config();
 
 module.exports = {
